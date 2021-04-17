@@ -1,0 +1,16 @@
+.footer{
+    height: 88px;
+    width: 100%;
+    background-color: #222;
+}
+.footer-items{
+    width: 1060px;
+    padding: 15px;
+}
+.footer-items__img{
+    color: #ddd;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
