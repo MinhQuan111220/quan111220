@@ -1,0 +1,109 @@
+.menuMB{
+   position: fixed;
+   display: flex;
+    top: 47px;
+    right: -55px;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    animation: feadIn linear 0.2s;
+    justify-content: center;
+    display: none;
+}
+
+.menuBackgroud{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4)
+}
+.menu-openMB{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    display: none;
+}
+.menu-input{
+    background-color: var(--while-color);
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+.menu-input-open{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    border-radius: 2px;
+    padding: 0 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.menu-input-open:focus~.header__nav1-input-list{
+    display: block;
+}
+.header__nav1-input-list.menu-input-list{
+    top: 40px;
+    left: 0;
+    width: 100%;
+}
+.menu-input-icon{
+    height: 80%;
+    background-color: #f13939;
+    margin-right: 12px;
+    border: none;
+    outline: none;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.menu-icon_input{
+    color: var(--while-color);
+}
+
+/*  */
+.menu-list-openMB{
+    position: relative;
+    height: 100%;
+    width: 70%;
+    top: -8px;
+    right: -124px;
+    background-color: rgba(238, 229, 229,0.8);
+    display: none;
+}
+.list-menuMB,.list-formMB{
+    list-style: none;
+    padding: 0;
+}
+.list-menuMB__item{
+    text-decoration: none;
+    padding: 12px 12px;
+}
+.menuMB-item{
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: var(--text-color);
+}
+.form-itemDN,.form-itemDK{
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: #ae4ad9;
+}
+.list-formMB-itemDN,
+.list-formMB-itemDK{
+    text-decoration: none;
+    padding: 12px 12px;
+    border-bottom: 1px solid var(--text-color)
+}
+.color-menuMB{
+    color: #e96f3e
+}
+.menuMB-item i{
+    font-size: 1.3rem;
+}

@@ -3,6 +3,7 @@
     --black-color: #000;
     --text-color: #333;
     --primary--color: #ae4ad9;
+    --subcontainer-color : #288ad6;
     --nomination-color: #dbd6d6;
     --header-height: 90px;
     --header-nav1-height: 48px;
@@ -51,3 +52,83 @@ html{
     color: #e74c3c !important;
     font-weight: 500;
 }
+.btn-sub__container{
+    min-width: 110px;
+    height: 34px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f0ad4e;
+    border-color: #eea236;
+    color: var(--while-color);
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.btn-sub__container:hover{
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+/* active */
+.new-cmt.active,
+.container__nominations2.active,
+.container__nav1.active,
+.container__nominations2-cmt.active{
+    display: none;
+}
+.container__nominations2-list.active{
+    display: flex;
+}
+.pagination-item.active{
+    display: none;
+}
+/* form */
+.modal.active{
+    display: flex;
+}
+.form-1.active,
+.form-2.active{
+    display: block;
+}
+/* container */
+.list-top__story.active{
+    display: block;
+}
+.sub-container__stars.color-star{
+    color: rgb(247, 172, 59);
+}
+.container__nominations2-sub.active{
+    display: none;
+}
+.nomianations2__list-item-story.active{
+    display: block;
+}
+/* search mb */
+.menuMB.active{
+    display: block;
+}
+.menu-openMB.active{
+    display: block;
+}
+.header__nav1-list-mb.active,
+.header__nav1-exit-mb.active{
+    display: none;
+}
+.menu-list-openMB.active{
+    display: block;
+}
+/* sub container */
+.sub-container__plot-next.active,
+.sub-container__plot-prev.active{
+    display: none;
+}
+.sub-container__chapter-then.active,
+.sub-container__chapter-back.active{
+    display: flex;
+}
+.container__nominationssub.active{
+    display: none;
+}
+/* Fixed */
+

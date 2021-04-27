@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/container.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    
 </head>
 <body>
-    <div class="main">
+    <div class="main ">
         
         <div class="header__1">
                 <div class="grid wide">
@@ -47,9 +51,9 @@
                         </div>
                         <i class="header__nav1-cmt fas fa-comment hide-on-moblie"></i>
                         <div class="header__nav1-login hide-on-moblie">
-                            <!-- <a href="" class="header__nav1-login-N">Đăng Nhập</a>
-                            <a href="" class="header__nav1-login-N">Đăng Ký</a> -->
-                            <img src="./assets/img/user2.jpg" class="accout-user__img" alt="">
+                            <a href="" class="header__nav1-login-DN">Đăng Nhập</a>
+                            <a href="" class="header__nav1-login-DK">Đăng Ký</a>
+                            <!-- <img src="./assets/img/user2.jpg" class="accout-user__img" alt="">
                             <a href="" class="header__nav1-accout-user">
                                 Minh Quân
                             </a>
@@ -66,12 +70,15 @@
                                 <li class="header__nav1-user-item header__navbar-user-item-separate">
                                     <a href="">Đăng xuất</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </div>
                         <i class="header__nav1-cmt-mb fas fa-comment hide-on-PC-tablet"></i>
                         <i class="header__nav1-logo-icon-mb fas fa-search hide-on-PC-tablet"></i>
-                        <button class="header__nav1-list-mb hide-on-PC-tablet">
+                        <button class="header__nav1-list-mb  hide-on-PC-tablet">
                             <i class="fas fa-bars header__nav1-list-item-mb"></i>
+                        </button>
+                        <button class="header__nav1-exit-mb active hide-on-PC-tablet">
+                            <i class="fa fa-times header__nav1-list-exit-mb"></i>
                         </button>
                     </div>
                 </div>
@@ -303,1055 +310,55 @@
         </div>
         <div class="container">
             <div class="grid wide container__nav"> 
-                <div class="row container__nav1">
+                <div class="row container__nav1 ">
                     <div class="container__nominations-cmt">
-                        <a href="" class="container__nominations-cmt-item"> Truyện đề cử
-                            <i class="fas fa-chevron-right"></i>
+                        <a href=""class="container__nominations-cmt-item-link" > <h3 class="container__nominations-cmt-item">Truyện đề cử
+                        <i class="fas fa-chevron-right container__nominations-cmt-item-icon"></i>
+                        </h3>
                         </a>
                     </div>
                     <ul class="row container__nominations-h2">
-                            <li class="nomianations__list-item-story col l-2-4 m-3 c-6 c-6">
-                                <a href="">
-                                    <img class="nomianations__item-story-img" src="./assets/img/bach-luyen-thanh-than.jpg" alt="">
-                                </a>
-                                <div class="nomianations__item-information">
-                                    <a href="" class="nav2__story-cmt" >
-                                        <h2 class="nomianations-information-ctm">Bách Luyện Thành Thần </h2>
-                                    </a>
-                                    <div class="nomianations-information-chap-hour">
-                                        <a href="" class="nomianations-information-chap">
-                                            Chapters 575
-                                        </a>
-                                        <h3 class="nomianations-information-hour">
-                                            <i class="far fa-clock"></i>
-                                            1 ngày trước
-                                        </h3>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nomianations__list-item-story col l-2-4 m-3 c-6">
-                            <a href="">
-                            <img class="nomianations__item-story-img" src="./assets/img/dia-phu-khai-pha-thuong.jpeg" alt="">
-                            </a>
-                            <div class="nomianations__item-information">
-                                <a href="" class="nav2__story-cmt">
-                                    <h2 class="nomianations-information-ctm">Địa Phủ Khai Phá ThươngThương </h2>
-                                </a>
-                                <div class="nomianations-information-chap-hour">
-                                    <a href="" class="nomianations-information-chap">
-                                        Chapters 247
-                                    </a>
-                                    <h3 class="nomianations-information-hour">
-                                        <i class="far fa-clock"></i>
-                                        2 ngày trước
-                                    </h3>
-                                </div>
-                            </div>
-                            </li>
-                            <li class="nomianations__list-item-story col l-2-4 m-3 hide-on-moblie">
-                            <a href="">
-                            <img class="nomianations__item-story-img" src="./assets/img/chi-ton-dong-thuat-su-tuyet-the-dai-tieu-8924.jpg" alt="">
-                            </a>
-                            <div class="nomianations__item-information">
-                                <a href="" class="nav2__story-cmt">
-                                    <h2 class="nomianations-information-ctm">Chí Tôn Đông Thuật Sự Tuyệt Thế Đại Tiêu </h2>
-                                </a>
-                                <div class="nomianations-information-chap-hour">
-                                    <a href="" class="nomianations-information-chap">
-                                        Chapters 46
-                                    </a>
-                                    <h3 class="nomianations-information-hour">
-                                        <i class="far fa-clock"></i>
-                                        2 ngày trước
-                                    </h3>
-                                </div>
-                            </div>
-                            </li>
-                            <li class="nomianations__list-item-story col l-2-4 m-3 hide-on-moblie">
-                            <a href="">
-                            <img class="nomianations__item-story-img" src="./assets/img/mat-the-sieu-cap-he-thong.jpg" alt="">
-                            </a>
-                            <div class="nomianations__item-information">
-                                <a href="" class="nav2__story-cmt">
-                                    <h2 class="nomianations-information-ctm">Mật Thê Siêu Cấp Hệ Thống </h2>
-                                </a>
-                                <div class="nomianations-information-chap-hour">
-                                    <a href="" class="nomianations-information-chap">
-                                        Chapters 123
-                                    </a>
-                                    <h3 class="nomianations-information-hour">
-                                        <i class="far fa-clock"></i>
-                                        1 ngày trước
-                                    </h3>
-                                </div>
-                            </div>
-                            </li>
-                            <li class="nomianations__list-item-story col l-2-4 m-0 hide-on-moblie">
-                            <a href="" class="">
-                            <img class="nomianations__item-story-img" src="./assets/img/tu-tien-tro-ve-tai-vuon-truong.jpg" alt="">
-                            </a>
-                            <div class="nomianations__item-information">
-                                <a href="" class="nav2__story-cmt">
-                                    <h2 class="nomianations-information-ctm">Tu Tiên Trở Về Tại Vườn Trường </h2>
-                                </a>
-                                <div class="nomianations-information-chap-hour">
-                                    <a href="" class="nomianations-information-chap">
-                                        Chapters 210
-                                    </a>
-                                    <h3 class="nomianations-information-hour">
-                                        <i class="far fa-clock"></i>
-                                        1 ngày trước
-                                    </h3>
-                                </div>
-                            </div>
-                            </li>
-                        
-                        </ul>
+                            
+                    </ul>
                     <a href="" class="prev"></a>
                     <a href="" class="next"></a>
                 </div>
-                <div class="row container__nav2">
-                    <div class="container__nominations2-cmt">
-                        <a href="" class="container__nominations-cmt-item"> Truyện mới cập nhật
-                            <i class="fas fa-chevron-right"></i>
+                <div class="row container__nav2 sub-container">
+                    <div class="container__nominations2-cmt ">
+                        <a href=""class="container__nominations-cmt-item-link" > <h3 class="container__nominations-cmt-item">Truyện mới cập nhật
+                        <i class="fas fa-chevron-right  container__nominations-cmt-item-icon"></i>
+                        </h3>
                         </a>
                     </div>
-                    <div class="container__nominations2 col l-8 m-12">
-                        <div class="row">
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/ngay-nao-thieu-soai-cung-ghen.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        37.824.288</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        22.562</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        3.000</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Ngày nào thiếu soái cũng ghen</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 201</a>
-                                    <h4 class="nav2__item-hour">10 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 200</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 199</a>
-                                    <h4 class="nav2__item-hour">6 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/quan-chua-can-than-da-dinh-roi-kho-doi-l-5901.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        1.407.592</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        153</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        200</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Quận chúa cẩn thận, đã định rồi khó đổi lắm!</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 49</a>
-                                    <h4 class="nav2__item-hour">1 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 48</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 47</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/sau-mat-the-toi-tro-thanh-zombie.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        1.993.501</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        295</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        20</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Sau Mạt Thế Tôi Trở Thành Zombie</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 55</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 54</a>
-                                    <h4 class="nav2__item-hour">8 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 53</a>
-                                    <h4 class="nav2__item-hour">8 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/o-nha.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        1.806.293</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        260</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        300</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Ô Nha</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 83</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 82</a>
-                                    <h4 class="nav2__item-hour">3 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 81</a>
-                                    <h4 class="nav2__item-hour">3 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/bi-day-do-thanh-thanh.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        689.390</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        376</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        444</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Bị Dạy Dỗ Thành Thánh</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 24</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 23</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 22</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/dao-quan.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        98.610</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        46</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        1.761</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Đạo Quân</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 24</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 23</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 22</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/tu-la-vo-than.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        6.691.469</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        347</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        705</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Tu La Võ Thần</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 110</a>
-                                    <h4 class="nav2__item-hour">58 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 109</a>
-                                    <h4 class="nav2__item-hour">58 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 108</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/tsuki-ga-michibiku-isekai-douchuu.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        6.584.845</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        4.132</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        1.500</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Tsuki ga Michibiku Isekai Douchuu</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 62</a>
-                                    <h4 class="nav2__item-hour">57 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 61</a>
-                                    <h4 class="nav2__item-hour">18 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 60</a>
-                                    <h4 class="nav2__item-hour">20:28 20/02</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/tren-nguoi-ta-co-mot-con-rong.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        69.636.235</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        15.588</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        4.500</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Trên Người Ta Có Một Con Rồng</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 335</a>
-                                    <h4 class="nav2__item-hour">1 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 334</a>
-                                    <h4 class="nav2__item-hour">1 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 333</a>
-                                    <h4 class="nav2__item-hour">3 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/tan-dinh-la-hao-dao.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        82.548</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        33</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        2.335</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Tân Đình Là Hảo Đao</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 20</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 19</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 18</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/sasaki-to-miyano.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        176.806</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        117</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        2.491</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Sasaki to Miyano</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 22</a>
-                                    <h4 class="nav2__item-hour">1 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 21</a>
-                                    <h4 class="nav2__item-hour">12 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 20</a>
-                                    <h4 class="nav2__item-hour">25 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/konjiki-no-gash.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        611.483</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        39</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        50</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Konjiki no Gash!!</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 323</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 322</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 321</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/vuong-phi-muon-treo-tuong.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        4.806.298</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        4.747</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        1.890</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Vương Phi Muốn Trèo TườngTường</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 99</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 98</a>
-                                    <h4 class="nav2__item-hour">6 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 97</a>
-                                    <h4 class="nav2__item-hour">12 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/neko-no-otera-no-chion-san.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        84.807</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        50</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        1.341</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Neko No Otera No Chion-San</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 16</a>
-                                    <h4 class="nav2__item-hour">3 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 15</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 14</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/thuong-nguyen-do.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        7.535.220</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        1.480</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        5.012</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Thương Nguyên Đồ</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 129</a>
-                                    <h4 class="nav2__item-hour">6 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 128</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 127</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/tro-choi-sinh-ton-chien-luoc-tinh-ai.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        52.632</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        127</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        4.382</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Trò Chơi Sinh Tồn: Chiến Lược Tình Ái</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 2</a>
-                                    <h4 class="nav2__item-hour">15 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 1.2</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 1.1</a>
-                                    <h4 class="nav2__item-hour">9 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/tong-tai-tai-thuong.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        33.444.958</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        8.193</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        11.546</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Tổng Tài Tại Thượng</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 373</a>
-                                    <h4 class="nav2__item-hour">28 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 372</a>
-                                    <h4 class="nav2__item-hour">28 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 371</a>
-                                    <h4 class="nav2__item-hour">28 phút trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/long-ho-5-the.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        381.545</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        52</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        910</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Long Hổ 5 Thế</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 191</a>
-                                    <h4 class="nav2__item-hour">23 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 190</a>
-                                    <h4 class="nav2__item-hour">17 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 89</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/than-vo-thien-ton.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        51.314.667</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        3.831</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        15.266</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Thần Võ Thiên Tôn</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 304</a>
-                                    <h4 class="nav2__item-hour">37 phút trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 303</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 302</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/toi-chi-la-mot-tieu-thu-binh-thuong.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        1.681.636</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        117</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        1.234</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Tôi Chỉ Là Một Tiểu Thư Bình Thường</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 58</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 57</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 56</a>
-                                    <h4 class="nav2__item-hour">5 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/yeu-gia-vi-vuong.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        17.834.132</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        2.488</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        10.464</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Yêu Giả Vi Vương</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 212</a>
-                                    <h4 class="nav2__item-hour">1 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 211</a>
-                                    <h4 class="nav2__item-hour">3 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 210</a>
-                                    <h4 class="nav2__item-hour">7 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/chi-ve-su-van-dong-cua-dia-cau.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        22.439</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        39</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        586</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">KChi. - Về Sự Vận Động Của Địa Cầu -</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 4</a>
-                                    <h4 class="nav2__item-hour">1 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 3</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 2</a>
-                                    <h4 class="nav2__item-hour">2 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/great-teacher-onizuka-paradise-lost.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        3.824.657</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        535</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        2.243</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Great Teacher Onizuka : Paradise Lost</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 198</a>
-                                    <h4 class="nav2__item-hour">1 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 197</a>
-                                    <h4 class="nav2__item-hour">1 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 196</a>
-                                    <h4 class="nav2__item-hour">2 giờ trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/nghich-thien-kiem-than.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        47.024.529</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        3.436</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        12.354</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Nghịch Thiên Kiếm Thần</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 367</a>
-                                    <h4 class="nav2__item-hour">2 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 366</a>
-                                    <h4 class="nav2__item-hour">2 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 365</a>
-                                    <h4 class="nav2__item-hour">8 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/huyet-ma-nhan.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        42.667.934</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        5.732</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        12.123</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Huyết Ma Nhân</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 734</a>
-                                    <h4 class="nav2__item-hour">2 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 733</a>
-                                    <h4 class="nav2__item-hour">4 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 732</a>
-                                    <h4 class="nav2__item-hour">8 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/vo-luyen-dinh-phong.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        190.187.285</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        29.927</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        21.644</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Võ Luyện Đỉnh Phong</h3>
-                                </a>
-                                <span class="icon-hot"></span>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 1086</a>
-                                    <h4 class="nav2__item-hour">2 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 1085</a>
-                                    <h4 class="nav2__item-hour">7 giờ trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 1084</a>
-                                    <h4 class="nav2__item-hour">1 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/vao-ngay-tan-the-nhat-duoc-he-thong.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        110.183</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        57</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        3.321</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Vào Ngày Tận Thế Nhặt Được Hệ Thống</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 17</a>
-                                    <h4 class="nav2__item-hour">4 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 16</a>
-                                    <h4 class="nav2__item-hour">4 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 15</a>
-                                    <h4 class="nav2__item-hour">4 ngày trước</h4>
-                                </div>
-                            </div>
-                            <div class="nomianations2__list-item-story col l-3 m-3 c-6">
-                               
-                                    
-                                    <a href="">
-                                        <img class="nomianations2__item-story-img" src="./assets/img/ngay-mai-toi-se-chet.jpg" alt="">
-                                    </a>
-                                    <div class="nav2__item-like">
-                                        <h5><i class="far fa-eye"></i>
-                                        132.921</h5>
-                                        <h5><i class="fas fa-comment"></i>
-                                        119</h5>
-                                        <h5><i class="fas fa-heart"></i>
-                                        3.467</h5>
-                                    </div>
-                                
-                                <a href="" class="nav2__story-cmt">
-                                    <h3 class="nav2__item-cmt-story">Ngày Mai Tôi Sẽ Chết</h3>
-                                </a>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 16</a>
-                                    <h4 class="nav2__item-hour">4 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 15</a>
-                                    <h4 class="nav2__item-hour">4 ngày trước</h4>
-                                </div>
-                                <div class="nav2__list-item-cmt">
-                                    <a href="" class="nav2__item-chap">Chapter 14</a>
-                                    <h4 class="nav2__item-hour">4 ngày trước</h4>
-                                </div>
-                            </div>
+                    <div class=" container__nominations2  col l-8 m-12">
+                        <div class="row container__nominations2-list active">
+                            
                         </div>
+                        
                         <div class="container-footer">
+                            <div class="pagination-item-icon-prev">
+                                <a href=""class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </div>
                             <ul class="pagination home-product__pagination">
-                                <li class="pagination-item">
-                                    <a href=""class="pagination-item__link">
-                                        <i class="pagination-item__icon fas fa-angle-left"></i>
-                                    </a>
-                                </li>
-                                <li class="pagination-item pagination-item__active">
-                                    <a href=""class="pagination-item__link">
-                                       1
-                                    </a>
-                                </li>
-                                <li class="pagination-item">
-                                    <a href=""class="pagination-item__link">
-                                       2
-                                    </a>
-                                </li>
-                                <li class="pagination-item hide-on-moblie">
-                                    <a href=""class="pagination-item__link">
-                                       3
-                                    </a>
-                                </li>
-                                <li class="pagination-item hide-on-moblie">
-                                    <a href=""class="pagination-item__link">
-                                       4
-                                    </a>
-                                </li>
-                                <li class="pagination-item hide-on-moblie">
-                                    <a href=""class="pagination-item__link">
-                                       5
-                                    </a>
-                                </li>
-                                <li class="pagination-item">
-                                    <a href=""class="pagination-item__link">
-                                      ...
-                                    </a>
-                                </li>
-                                <li class="pagination-item">
-                                    <a href=""class="pagination-item__link">
-                                      14
-                                    </a>
-                                </li>
-                                <li class="pagination-item">
-                                    <a href=""class="pagination-item__link">
-                                        <i class="pagination-item__icon fas fa-angle-right"></i>
-                                    </a>
-                                </li>
+                                
                             </ul>
+                            <div class="pagination-item-icon-next">
+                                <a href=""class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </div>
                         </div>
-                     </div>
+                    </div>
+                    <div class="container__nominations2-sub active col l-8 m-12">
+                    </div>
                     <div class="container__nominations2 col l-4">
                         <div class="row top-all">
                             <div class="container__nominations2-top">
-                                <div class="container__nominations2-top-list col l-4 top-month">
+                                <div class="container__nominations2-top-list top-color col l-4 top-month ">
                                     <a href="" class="container__nominations2-top-item ">
                                         Top Tháng
-                                     </a>
-                                </div>
-                                <div class="container__nominations2-top-list col l-4 top-sub">
-                                    <a href="" class="container__nominations2-top-item ">
-                                        Top Ngày
                                      </a>
                                 </div>
                                 <div class="container__nominations2-top-list col l-4 top-sub">
@@ -1359,61 +366,69 @@
                                         Top Tuần
                                      </a>
                                 </div>
+                                <div class="container__nominations2-top-list col l-4 top-sub">
+                                    <a href="" class="container__nominations2-top-item ">
+                                        Top Ngày
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="list-top__story active">
+                                
                             </div>
                             <div class="list-top__story">
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt top1">01</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt top1">01</span>
-                                            <img src="./assets/img/vo-luyen-dinh-phong.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/60/doc-bo-thien-ha-dac-cong-than-y.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Võ Luyện Đỉnh Phong</h4>
+                                            <h4 class="top-story__name">Độc Bộ Thiên Hạ: Đặc Công Thần Y</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 1086</a>
+                                            <a href="" class="item-information__chap">Chapter 271</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                13.345.386</h5>
+                                                4.373.495</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt top2">02</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt top2">02</span>
-                                            <img src="./assets/img/co-vo-hop-dong-bo-tron-cua-tong-giam-doc-2344.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/94/kich-truong-cua-takemichi.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Cô Vợ Hợp Đồng Bỏ Chốn Của Tổng Giám Đốc</h4>
+                                            <h4 class="top-story__name">Kịch Trường Của Takemichi</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 326</a>
+                                            <a href="" class="item-information__chap">Chapter 202</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                9.172.380</h5>
+                                                2.546.131</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt top3">03</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt top3">03</span>
-                                            <img src="./assets/img/tong-tai-tai-thuong.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/127/toan-chuc-phap-su.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Tổng Tài Tại Thượng</h4>
+                                            <h4 class="top-story__name">Toàn Chức Pháp Sư</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 373</a>
+                                            <a href="" class="item-information__chap">Chapter 682</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
                                                 7.759.996</h5>
@@ -1423,109 +438,231 @@
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">04</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt">04</span>
-                                            <img src="./assets/img/toan-chuc-phap-su.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/97/trung-sinh-do-thi-thien-ton.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Toàn Chức Pháp Sư</h4>
+                                            <h4 class="top-story__name">Trùng Sinh Đô Thị Thiên Tôn</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 678</a>
+                                            <a href="" class="item-information__chap">Chapter 203</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                7.066.452</h5>
+                                                1.223.307</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">05</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt">05</span>
-                                            <img src="./assets/img/nhat-duoc-hoa-khoi-ve-lam-vo.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/35/sinh-doi-xuyen-khong.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Nhặt Được Hoa Khôi Về Làm Vợ</h4>
+                                            <h4 class="top-story__name">Sinh đôi xuyên không</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 198</a>
+                                            <a href="" class="item-information__chap">Chapter 58</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                6.530.458</h5>
+                                                1.184.602</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">06</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt">06</span>
-                                            <img src="./assets/img/trong-sinh-do-thi-tu-tien.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/23/hong-thien-than-ton.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Trọng Sinh Đô Thị Tu Tiên</h4>
+                                            <h4 class="top-story__name">Hồng Thiên Thần Tôn</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 577</a>
+                                            <a href="" class="item-information__chap">Chapter 111</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                6.043.522</h5>
+                                                1.174.307</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">07</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt">07</span>
-                                            <img src="./assets/img/toi-da-chuyen-sinh-thanh-slime.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/86/van-co-de-nhat-te.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Tôi Đã Chuyển Sinh Thành Smile</h4>
+                                            <h4 class="top-story__name">Vạn Cổ Đệ Nhất Tế</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 82</a>
+                                            <a href="" class="item-information__chap">Chapter 106</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                5.726.306</h5>
+                                                1.022.983</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">08</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt">08</span>
-                                            <img src="./assets/img/ong-xa-ket-hon-thu-manh-them-chut-nua-di-3384.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/146/nguyen-ton.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
                                         <a href="" class="top-story__item-name">
-                                            <h4 class="top-story__name">Ông Xã Kết Hôn Thử, Mạnh Thêm Chút Nữa Đi</h4>
+                                            <h4 class="top-story__name">Nguyên Tôn</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 312</a>
+                                            <a href="" class="item-information__chap">Chapter 307.5</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                5.575.634</h5>
+                                                984.028</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">09</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt">09</span>
-                                            <img src="./assets/img/het-nhu-han-quang-gap-nang-gat.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/181/vo-gia-bat-dac-di.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Võ Giả Bất Đắc Dĩ</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 48</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                965.343</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">10</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/64/vong-du-chi-can-chien-phap-su.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Võng Du Chi Cận Chiến Pháp Sư</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 350</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                922.906</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="list-top__story">
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt top1">01</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/221/ta-o-di-gioi-nuoi-duong-nam-than-than-y-6734.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Ta Ở Dị Giới Nuôi Dưỡng Nam Thần: Thần Y Cửu Tiểu Thư</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 76</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                825.946</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt top2">02</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/42/vo-dich-kiem-vuc.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Vô Địch Kiếm Vực</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 120</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                814.520</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt top3">03</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/110/linh-vo-de-ton.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Linh Võ Đế Tôn</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 243</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                758.058</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">04</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/232/nhat-kiem-doc-ton.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Nhất Kiếm Độc Tôn</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 117</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                729.746</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">05</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/87/het-nhu-han-quang-gap-nang-gat.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
@@ -1533,19 +670,19 @@
                                             <h4 class="top-story__name">Hệt Như Hàn Quang Gặp Nắng Gắt</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 162</a>
+                                            <a href="" class="item-information__chap">Chapter 163</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                5.312.881</h5>
+                                                718.260</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                                 <div class="row top-story__item">
                                     <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">06</span>
                                         <a href="" class="top-story__item-img">
-                                            <span class="top-story__item-stt">10</span>
-                                            <img src="./assets/img/tuyet-sac-quyen-ru-quy-y-chi-ton.jpg" alt="" class="top-story__img">
+                                            <img src="http://st.imageinstant.net/data/comics/31/tuyet-sac-quyen-ru-quy-y-chi-ton.jpg" alt="" class="top-story__img">
                                         </a>
                                     </div>
                                     <div class="top-story__item-information col l-8 m-10 c-9">
@@ -1553,17 +690,97 @@
                                             <h4 class="top-story__name">Tuyệt Sắc Quyến Rũ: Quỷ Y Chí Tôn</h4>
                                         </a>
                                         <div class="item-information__chap-eye">
-                                            <a href="" class="item-information__chap">Chapter 344</a>
+                                            <a href="" class="item-information__chap">Chapter 346</a>
                                             <h5 class="item-information__eye">
                                                 <i class="far fa-eye"></i>
-                                                5.203.341</h5>
+                                                696.481</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">07</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/197/tieu-thu-muon-duoc-nghi-ngoi.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Tiểu Thư Muốn Được Nghỉ Ngơi</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 24</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                5.246</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">08</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/19/ta-la-vua-phap-su.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Ta Là Vua Pháp Sư</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 136</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                57.949</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">09</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/186/su-tro-lai-cua-phap-su-vi-dai-sau-4000-n-7868.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Sự Trở Lại Của Pháp Sư Vĩ Đại Sau 4000 Năm</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 79</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                54.934</h5>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row top-story__item">
+                                    <div class="top-story__item-left col l-4 m-2 c-3">
+                                        <span class="top-story__item-stt">10</span>
+                                        <a href="" class="top-story__item-img">
+                                            <img src="http://st.imageinstant.net/data/comics/129/manh-su-tai-thuong.jpg" alt="" class="top-story__img">
+                                        </a>
+                                    </div>
+                                    <div class="top-story__item-information col l-8 m-10 c-9">
+                                        <a href="" class="top-story__item-name">
+                                            <h4 class="top-story__name">Manh Sư Tại Thượng</h4>
+                                        </a>
+                                        <div class="item-information__chap-eye">
+                                            <a href="" class="item-information__chap">Chapter 271</a>
+                                            <h5 class="item-information__eye">
+                                                <i class="far fa-eye"></i>
+                                                49.155</h5>
                                         </div>
                                     </div>
                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="row new-cmt">
+                        <div class="row new-cmt ">
                             <span class="header-new__cmt">Bình Luận Mới</span>
                             <div class="list__new-cmt">
                                 <div class="new-cmt__item l-12">
@@ -1732,7 +949,202 @@
                 <h3 class="footer-items__img">Copyright © 2019 NetTruyen</h3>
             </div>
         </div>
+        <a class="back-to__main">
+            <i class="fa fa-angle-up"></i>
+        </a>
+        <!-- Modal layout -->
+        <div class="modal ">
+            <div class="modal__overlay">
+
+            </div>
+            <div class=" modal__body ">
+                <!-- Dang Ky -->
+                <form action="" method="POST" class="form-1 " id="form-1 ">
+                    <h3 class="heading">Đăng Ký Thành Viên</h3>
+                    <p class="desc">Cùng nhau đọc truyện nhé anh em ❤️</p>
+                
+                    <div class="spacer"></div>
+                
+                    <div class="form-group">
+                      <label for="fullname" class="form-label">Tên đầy đủ</label>
+                      <input id="fullname" name="fullname" type="text" placeholder="VD: Minh Quân" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+                
+                    <div class="form-group">
+                      <label for="email" class="form-label">Email</label>
+                      <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+                
+                    <div class="form-group">
+                      <label for="password" class="form-label">Mật khẩu</label>
+                      <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+                
+                    <div class="form-group">
+                      <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                      <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+                
+                    <button class="form-submit">Đăng ký</button>
+                    <button class="form-submitDN">Đăng Nhập</button>
+                    <button class="form-canel">Canel</button>
+                  </form>
+                <!-- Dang Nhap -->
+                <form action="" method="POST" class="form-2" id="form-2">
+                    <h3 class="heading">Đăng Nhập</h3>
+                
+                    <div class="spacer"></div>
+                    <div class="form-group">
+                      <label for="password" class="form-label">Tên Tài Khoản</label>
+                      <input id="fullnameDN" name="fullname" type="text"  class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+                
+                    <div class="form-group">
+                      <label for="password" class="form-label">Mật khẩu</label>
+                      <input id="passwordDN" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+                
+                    <div class="form-check">
+                        <input type="checkbox" > <h3 class="checkboxx">Lưu Mật Khẩu</h3>
+                        <a href="" class="checkMK" >Quên mật khẩu</a>
+                    </div>
+                
+                    <button class="form-submit">Đăng Nhập</button>
+                    <button class="form-facebook">Đăng nhập bằng FaceBook</button>
+                    <button class="form-email">Đăng nhập bằng Google</button>
+                    <button class="form-submitDK">Đăng Ký</button>
+                    <button class="form-canel">Canel</button>
+                  </form>
+                </div>
+            </div>
+        <!-- Form List Mobile -->
+        <div class="menuMB hide-on-tablet hide-on-PC-tablet">
+            <div class="menuBackgroud">
+            </div>
+            <div class="grid wide menu-openMB ">
+                    <div class="menu-input ">
+                        <input type="search" class="menu-input-open" placeholder="Tìm truyện...">
+                        <button class="menu-input-icon">
+                            <i class="menu-icon_input fas fa-search"></i>
+                        </button>
+                        <div class="header__nav1-input-list menu-input-list ">
+                            <header class="header__nav1-input-history">Lịch sử tìm kiếm kiếm</header>
+                            <ul class="header__nav1-input-items">
+                                <li class="header__nav1-history-item">
+                                    <a href="" class="">Tôi là ai</a>
+                                </li>
+                                <li class="header__nav1-history-item">
+                                    <a href="" class="">Đây là đâu</a>
+                                </li>
+                                <li class="header__nav1-history-item">
+                                    <a href="" class="">Tại sao tôi lại ở đây</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="menu-list-openMB ">
+                <ul class="list-menuMB">
+                    <li class="list-menuMB__item ">
+                        <span class="menuMB-item color-menuMB">Trang Chủ</span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">HOT</span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">Theo Dõi</span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">Lịch Sử
+                            <i class="fas fa-chevron-down "></i>
+                        </span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">Thể Loại
+                            <i class="fas fa-chevron-down "></i>
+                        </span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">Xếp Hạng</span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">Tìm Truyện</span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">Con Gái</span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">Con Trai</span>
+                    </li>
+                    <li class="list-menuMB__item">
+                        <span class="menuMB-item">GROUD</span>
+                    </li>
+                </ul>
+                <ul class="list-formMB">
+                    <li class="list-formMB-itemDN">
+                        <span class="form-itemDN">
+                            Đăng Nhập
+                        </span>
+                    </li>
+                    <li class="list-formMB-itemDK">
+                        <span class="form-itemDK">
+                            Đăng Ký
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script type="module" src="./main.js"></script>
+    <!-- <script src="./nextlistStory.js"></script> -->
+    <script src="./Vadilator.js">
+    </script>
+    <script>
+         Vadilator ({
+            form : '.form-1',
+            formGroupSelector:'.form-group',
+            errorSelector : '.form-message',
+            rules : [
+            Vadilator.isRequired('#fullname'),
+            Vadilator.isRequired('#email'),
+            Vadilator.isEmail('#email'),
+            Vadilator.minLength('#password',6),
+            Vadilator.isRequired('#password_confirmation'),
+            Vadilator.pass('#password_confirmation',function(){
+              return  document.querySelector('.form-1 #password').value
+            },'Mat khau nhap lai khong chinh xac')
+            ],
+            onSubmit : function(data){
+
+            }
+        }
+        
+        )
+        Vadilator ({
+            form : '.form-2',
+            formGroupSelector:'.form-group',
+            errorSelector : '.form-message',
+            rules : [
+            Vadilator.isRequired('#fullnameDN'),
+            Vadilator.isRequired('#passwordDN'),
+            // Vadilator.isEmail('#email'),
+            // Vadilator.minLength('#password',6),
+            // Vadilator.isRequired('#password_confirmation'),
+            // Vadilator.pass('#password_confirmation',function(){
+            //   return  document.querySelector('.form-1 #password').value
+            // },'Mat khau nhap lai khong chinh xac')
+            ],
+            onSubmit : function(data){
+
+            }
+        })
+
+    </script>
 </body>
 </html>
